@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "punto03",
+        "runtime": "python3.9",
+        "role_name" : "LabRole",
+	    "apigateway_enable" : false,
+	    "keep_warm" : false,
+	    "manage_roles": false,
+        "s3_bucket": "zappa-6csuslax4"
+    }
+}
